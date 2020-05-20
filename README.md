@@ -1,2 +1,2 @@
-# BuzzSumo-API
+# BuzzSumo's API
 This repository uses Python code to connect to BuzzSumo's API
