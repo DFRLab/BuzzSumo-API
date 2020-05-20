@@ -1,4 +1,18 @@
 {
     "url": "https://api.buzzsumo.com/search/articles.json",
-    "q": "Trump AND AMLO"
+    "q": "Trump AND AMLO",
+    "num_days": null,
+    "result_type": "total",
+    "page": 0,
+    "begin_date": 1577836800,
+    "end_date": 1589587199,
+    "num_results": 100,
+    "language": "en",
+    "tld": null,
+    "domains": null,
+    "blocked_domains": null,
+    "article_type": "general_article",
+    "b2b_publishers": false,
+    "exact_url": false,
+    "min_words": false
 }
