@@ -3,6 +3,7 @@
 # import modules
 import pandas as pd
 import requests
+import time
 import json
 import os
 
@@ -32,3 +33,15 @@ del params['url']
 # request
 req = requests.request(method='GET', url=URL, params=params)
 results = req.json()
+
+# creating dataset
+dataset = pd.DataFrame(results['results'])
+dataset['published_date'] = dataset['published_date'].apply(
+    lambda x: pd.Timestamp.fromtimestamp(x)
+)
+
+# save dataset
+save_path = os.path.abspath(
+    f'../data/results_{int(time.time())}.xlsx'
+)
+dataset.to_excel(save_path, index=False)
