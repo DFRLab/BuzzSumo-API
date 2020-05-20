@@ -1,0 +1,4 @@
+{
+    "url": "https://api.buzzsumo.com/search/articles.json",
+    "q": "Trump AND AMLO"
+}

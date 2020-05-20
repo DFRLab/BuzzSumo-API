@@ -9,3 +9,8 @@ This repository uses Python code to connect to BuzzSumo's API
 - pandas
 - nltk
 - tqdm
+
+
+## Resources
+
+[BuzzSumo's API Reference](https://developers.buzzsumo.com/reference)

@@ -1,2 +1,5 @@
 # folders
 config/
+
+# cache and checkpoints
+.ipynb_checkpoints/
