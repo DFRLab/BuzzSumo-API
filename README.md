@@ -18,4 +18,4 @@ This repository uses Python code to connect to BuzzSumo's API
 - [Language - List of ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 
 #### `R lang`
-- [httr - R requests][https://cran.r-project.org/web/packages/httr/vignettes/quickstart.html]
+- [httr - R requests](https://cran.r-project.org/web/packages/httr/vignettes/quickstart.html)
